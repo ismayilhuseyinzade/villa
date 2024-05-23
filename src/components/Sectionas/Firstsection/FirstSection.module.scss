@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  .firstSection{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../../images/hero_1\(2\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    color: rgb(231, 229, 229);
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+        button{
+            border: #E61C5D;
+            cursor: pointer;
+            background-color: #E61C5D;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: 0.5s;
+            letter-spacing: 2px;
+            opacity: 0.9 ;
+
+            &:hover{
+                background-color: #b1204e;
+            }
+
+
+        }
+        .buttonLeft{
+            border: 1px solid white;
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 20px;
+            transition: 0.5s;
+            &:hover{
+                background-color: white;
+                color: black;
+
+            }
+
+        }
+    }
+  }
+
+
+  @media screen and (min-width: 300px) and (max-width: 576px){
+    .firstSection{
+        width: 100%;
+        min-height: 100vh;
+        background-image: url('../../../images/hero_1\(2\).jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 34px;
+        color: rgb(231, 229, 229);
+        h1{
+            font-size: 44px;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+
+            gap: 20px;
+            button{
+                border: #E61C5D;
+                cursor: pointer;
+                background-color: #E61C5D;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                transition: 0.5s;
+                letter-spacing: 2px;
+    
+                &:hover{
+                    background-color: #9b2147;
+                }
+    
+    
+            }
+            .buttonLeft{
+                border: 1px solid white;
+                cursor: pointer;
+                background-color: transparent;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 20px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: white;
+                    color: black;
+    
+                }
+    
+            }
+        }
+      }
+
+
+  }

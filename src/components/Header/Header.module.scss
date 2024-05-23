@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5% 10px 5%;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+  h1 {
+    font-size: 30px;
+  }
+  .hamburgerMenu{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 22px;
+    gap: 20px;
+
+    &:hover ul{
+        display: block;
+    }
+    ul{
+        display: none;
+        position: absolute;
+        list-style: none;
+        transition: 0.5s;
+        cursor: pointer;
+        li{
+            border-bottom: 1px solid black;
+            transition: 0.5s;
+            font-size: 16PX;
+            &:hover{
+                color: red;
+                border-bottom: 1px solid red;
+            }
+
+        }
+        
+    }
+  }
+
+}
